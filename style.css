@@ -87,18 +87,18 @@ html::-webkit-scrollbar {
 #search-result{
     width: 80%;
     margin: 100px auto 50px;
-    display: grid;overflow: hidden;
+overflow: hidden;
+    columns: 3;
     padding: 5px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 40px;
+    column-gap: 2vw;
 }
 #search-result img{
     width: 100%;
     border-radius: 18px;
-    height: 300px;
-    box-shadow: -5px -5px 10px 5px blue;
+     margin-bottom: 2vw;
+    height: fit-content;
+    box-shadow: -1px -1px 11px blue;
     object-fit: cover;
-
 }
 h2{
     font-size: 45px;
